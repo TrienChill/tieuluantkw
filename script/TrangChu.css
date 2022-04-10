@@ -1,0 +1,258 @@
+*{
+	margin: 0px;
+	padding: auto 0px;
+}
+
+/* ------------------------------------ */
+
+header{
+	clear: both;
+    background-color: white;
+    height: 400px;
+}
+
+div.the_nav{
+    width: auto;
+    height: 50px;
+    background-color: #31d1ae;
+}
+
+div.nav_right{
+	width:80%;
+	height: auto;
+	background-color: auto;
+}
+
+div.nav_right ul{
+	float: right;
+	list-style: none;
+}
+
+div.nav_right ul li{
+	float: right;
+	padding: 11px 15px;
+}
+
+div.nav_right ul li a{
+	color: blue;
+    font-size: 16px;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bold;
+
+    display: block;
+    padding: 0px 30px 0px 30px;
+    /* border-right: 2px solid blue; */
+    text-align: center;
+}
+
+div.nav_right ul li:hover{
+	background-color: white;
+}
+
+div.nav_right ul li:hover{
+	color: black;
+}
+
+div.nav_left{
+	width:20%;
+	height: auto;
+}
+
+img.logo{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	right: 60px;
+	bottom: 45px;
+}
+
+
+img.banner_anh{
+	width: 100%;
+	height: 300px;
+}
+
+/*-------------------------------------*/
+
+article{
+	display: table-row;
+}
+
+div.body{
+	float: left;
+    width: 100%;
+    height: 1600px;
+    background-color: white;
+}
+
+div.tieu_de{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgba(211, 194, 8, 0.838);
+}
+
+div.hd1{
+	height: 600px;
+	width: 100%;
+}
+
+img.the_hd1_anh{
+	height: 200px;
+	width: 200px;
+}
+
+div.hd1 h3{
+	font-family:'Times New Roman', Times, serif;
+	color: rgb(203, 74, 96);
+}
+
+div.hd1 p{
+	color: red;
+}
+
+div.the_hd1{
+	width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #220d0d;
+    text-align:center;
+    float: left;
+    /* box-shadow: 0 4px 8px 0 rgba(55, 53, 53, 0.57), 0 6px 20px 0 rgba(31, 30, 30, 0.755); */
+    box-shadow: 2px 2px 1px 0 #1f1e1ec1, 4px 4px 3px 0 #1f1e1ec1;
+}
+
+div.tieu_de2{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgba(211, 194, 8, 0.838);
+}
+
+div.hd2{
+	height: 600px;
+	width: 100%;
+}
+
+img.the_hd2_anh{
+	height: 200px;
+	width: 200px;
+}
+
+div.hd2 h3{
+	font-family:'Times New Roman', Times, serif;
+	color: rgb(203, 74, 96);
+}
+
+div.hd2 p{
+	color: red;
+}
+
+div.the_hd2{
+	width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #220d0d;
+    text-align:center;
+    float: left;
+    /* box-shadow: 0 4px 8px 0 rgba(55, 53, 53, 0.57), 0 6px 20px 0 rgba(31, 30, 30, 0.755); */
+    box-shadow: 2px 2px 1px 0 #1f1e1ec1, 4px 4px 3px 0 #1f1e1ec1;
+}
+
+div.dk{
+	height: 200px;
+	width: 100%;
+	background-color: #f6ff003c
+}
+
+div.dk h1{
+	text-align: center;
+	font-size: 40px;
+	color:rgba(247, 22, 135, 0.838)
+}
+
+div.iu input[type="text"]{
+    float:left;
+    height: 29px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin:5px 0 5px;
+    padding: 0;
+	text-align: center;
+}
+
+div.iu input[type="email"]{
+    float:left;
+    height: 29px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin:5px 0 5px;
+    padding: 0;
+	text-align: center;
+}
+
+div.iu input[type="tel"]{
+    float:left;
+    height: 29px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin:5px 0 5px;
+    padding: 0;
+	text-align: center;
+}
+
+div.iu input[type="submit"]{
+    float:left;
+    height: 29px;
+    width: 80px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin:5px 0 10px;
+    padding: 0;
+    background-color: #d8d2d2;
+    position: relative;
+    top: 40px;
+    right: 80px;
+}
+
+footer{
+	float: left;
+	width: 100%;
+}
+
+div.left{
+    float: left;
+    width: 30%;
+    min-height: 150px;
+    background-color: #4d4a4ac2;
+}
+
+div.center{
+    float: left;
+    width: 40%;
+    min-height: 150px;
+    background-color: #4d4a4ac2;
+}
+
+div.right{
+    float: left;
+    width: 30%;
+    min-height: 150px;
+    background-color: #4d4a4ac2;
+}
+
+
+
